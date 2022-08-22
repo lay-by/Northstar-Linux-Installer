@@ -11,8 +11,8 @@ if [ $LATEST != $CURVERS ]; then
     unzip -o *.zip
     mv "NorthstarLauncher.exe" "Titanfall2.exe"
     rm *.zip
-    echo "\n${GREEN}Installed version $LATEST\n"
+    echo -e "\n${GREEN}Installed version $LATEST\n"
     echo $LATEST > version
 else
-    echo "\n${GREEN}You are already on newest version $LATEST\n"
+    echo -e "\n${GREEN}You are already on newest version $LATEST\n"
 fi
